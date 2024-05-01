@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jeri</title>
+  </head>
+  <style>
+  body{
+    text-align: center;
+    
+  }
+    *{
+      margin:0;
+      padding:0;
+    }
+    img{
+      max-height: 200px;
+      border-radius: 1px;
+      border-radius: 5px;
+    }
+    .imgs{
+      border:3px solid #594;
+      margin:5px;
+      display: inline-block;
+      padding:10px;
+      color: #fff;
+      border-radius: 5px;
+      background:#666 ;
+      box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    }
+    .inicil{
+      background: #333;
+      height: 60px;
+      width: 100%;
+      text-align:center;
+      font-size: 40px;
+    }
+    .inicil a{
+      color:#fff;
+      
+    }
+    .hr h1{
+      background: #333;
+      color:#fff;
+      height:60px;
+      font-size: 50px;
+    
+    }
+    .vv{
+      height:70px;
+      width: 100px;
+      margin-left: 120px;
+      text-align: center;
+    }
+    .vv button{
+      height: 30px;
+      border-radius: 4px;
+      width:100px;
+      margin-left: 30px;
+      background:#397;
+    }
+    .vv textarea{
+      outline: none;
+      width:210px;
+      margin-left:-20px;
+      height: 100px;
+    }
+  </style>
+  <body>
+    <div class="inicil">
+      <a href="#imagens">imagens</a>
+      <a href="#historia">historia</a>
+    </div>
+    <h1>imagens de um boco</h1>
+    <section id="imagens">
+      <div class="imgs">
+      <h2>imagem1</h2>
+      <img src="https://picsum.photos/200">
+      </div>
+      <div class="imgs">
+      <h2>imagem2</h2>
+      <img src="https://picsum.photos/201">
+      </div>
+      <div class="imgs">
+      <h2>imagem3</h2>
+      <img src="http://picsum.photos/199">
+      </div>
+      
+    </section>
+   <div class="hr"> <h1>historia abaixo</h1></div>
+    <section id="historia">
+      <h2>historia de um boco</h2>
+      <p>Lorem ipsum dolor sit amet . Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação têm um relacionamento estável com essas palavras, mas o que é? Lorem ipsum é um texto fofo sem qualquer sentido.<br>
+<br>
+  <h2>outro motivo</h2>
+É uma seqüência de palavras latinas que, como estão posicionadas, não formem frases com um sentido completo, mas dão vida a um texto de teste útil para preencher espaços que irão Posteriormente serão ocupados a partir de textos ad hoc compostos por profissionais de comunicação.<br>
+<br>
+<h2>mais outro motivo</h2>
+É certamente o texto de marcador de posição mais famoso , mesmo que existam diferentes versões distinguíveis da ordem em que as palavras latinas são repetidas.<br>
+<br>
+<h2>outro motivo</h2>
+Lorem ipsum contém as tipos de letra mais em uso, um aspecto que permite que você tenha uma visão geral da renderização do texto em termos de escolha da fonte e tamanho da fonte.<br>
+<br>
+<h2>mais outro motivo</h2>
+É certamente o texto de marcador de posição mais famoso , mesmo que existam diferentes versões distinguíveis da ordem em que as palavras latinas são repetidas.<br>
+<br>
+<h2>outro motivo</h2>
+Lorem ipsum contém as tipos de letra mais em uso, um aspecto que permite que você tenha uma visão geral da renderização do texto em termos de escolha da fonte e tamanho da fonte .</p>
+    </section>
+    <div class="vv">
+    <textarea rows="5" cols="20" placeholder="mensagem"></textarea><button onclick="alerta()">Enviar</button>
+    </div>
+  </body>
+  <script>
+    function alerta(){
+      alert("Enviado")
+    }
+  </script>
+</html>
